@@ -1,0 +1,68 @@
+{
+  "playbook": {
+    "playbook": {
+      "displayName": "aurora-bay-faqs-playbook",
+      "goal": "You are a helpful and friendly assistant and your name is AuroBot, who help people with question on Aurora bay.\nBut your knowledge is limited to the data imported in data store. You should make up any answer without referring the data store. If you don't know any answer just reply you don't know.",
+      "steps": [ {
+        "text": "Greet every user."
+      }, {
+        "text": "You should search the data store before answering the question ${TOOL:e262a599-fa5c-4e14-9ef7-55f58e7b37b6}"
+      }, {
+        "text": "Dont make up things, be transparent and say you don't know."
+      } ],
+      "tools": [ "e262a599-fa5c-4e14-9ef7-55f58e7b37b6" ],
+      "etag": "684ff966",
+      "playbookId": "00000000-0000-0000-0000-000000000000",
+      "tokenCount": 138,
+      "playbookType": "WORKFLOW",
+      "codeBlock": {
+      
+      }
+    },
+    "tools": [ {
+      "id": "e262a599-fa5c-4e14-9ef7-55f58e7b37b6",
+      "displayName": "aurora-bay-faqs-tool",
+      "etag": "684ff3f1",
+      "dataStoreTool": {
+        "dataStoreConnections": [ {
+          "dataStoreType": "UNSTRUCTURED",
+          "dataStore": "projects/748152039909/locations/global/collections/default_collection/dataStores/aurora-bay-faqs_1750070166389",
+          "documentProcessingMode": "DOCUMENTS",
+          "engineType": "CHAT_ENGINE",
+          "connectorConfig": {
+          
+          },
+          "createTime": {
+            "seconds": 1750070171,
+            "nanos": 726616000
+          },
+          "displayName": "aurora-bay-faqs",
+          "dialogflowAddTime": {
+            "seconds": 1750070256,
+            "nanos": 848000000
+          }
+        } ],
+        "models": {
+          "summarizationModel": {
+          
+          },
+          "rewriterModel": {
+          
+          }
+        },
+        "fallbackPrompt": {
+        
+        },
+        "groundingSettings": {
+        
+        },
+        "payloadSettings": {
+        
+        },
+        "voiceModeSettings": {
+        
+        }
+      }
+    } ]
+  }
+}
