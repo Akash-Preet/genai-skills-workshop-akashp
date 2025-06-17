@@ -1,6 +1,6 @@
 # ADS Online Agent – Proof of Concept
 
-![Screenshot of ADS Online Agent](./39785da4-930e-4298-8e18-5ce9bbf9727a.png)
+![Screenshot of ADS Online Agent](./Homepage.png)
 
 ## 🔍 Overview
 
@@ -87,7 +87,7 @@ This project is a **Generative AI-powered chatbot** developed as a proof of conc
 
 ## 📸 Screenshot
 
-![Screenshot](./39785da4-930e-4298-8e18-5ce9bbf9727a.png)
+![Screenshot](./architecture.png)
 
 ---
 
